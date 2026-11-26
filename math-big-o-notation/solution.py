@@ -11,9 +11,9 @@ def count_comparisons_linear_search(arr, target):
     """
     comparisons = 0
     found = False
-    for i in (arr):
+    for value in (arr):
         comparisons +=1
-        if i==target:
+        if value == target:
             found = True
             return found , comparisons
         
